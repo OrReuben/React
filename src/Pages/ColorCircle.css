@@ -1,0 +1,52 @@
+.circle-component{
+    height:100vh
+}
+
+.row-centered {
+    display: flex;
+    justify-content: center;
+}
+
+.circle {
+    background-color: black;
+    margin-top: 20px;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+}
+
+.button-circle-container {
+    margin-top: 20px
+}
+
+.button-circle-container button {
+    padding: 10px 30px 10px 30px;
+    font-weight: bold;
+    margin: 25px;
+    letter-spacing: 0.2rem;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.button-circle-container button.deactivate:hover{
+background-color: rgba(85, 77, 77, 0.407);
+}
+.button-circle-container button.deactivate:active{
+background-color: rgb(60, 48, 48);
+}
+.button-circle-container button.deactivate:focus{
+border: 2px solid blue;
+}
+.button-circle-container button.activate:hover{
+background-color: green;
+}
+.button-circle-container button.activate:active{
+background-color: darkgreen;
+}
+.button-circle-container button.activate:focus{
+    border: 2px solid blue;
+    }
+
+    .red{
+        background-color: red;
+    }
+    

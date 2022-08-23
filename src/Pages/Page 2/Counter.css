@@ -1,0 +1,20 @@
+.counter-component{
+    height:100vh
+}
+.button-counter-container button{
+    padding: 10px 30px 10px 30px;
+    font-weight: bold;
+    margin: 25px;
+    letter-spacing: 0.2rem;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.button-counter-container button:hover{
+background-color: gray;
+}
+.button-counter-container button:active{
+background-color: blue;
+}
+.button-counter-container button:focus{
+border:2px solid blue
+}
